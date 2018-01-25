@@ -1,0 +1,19 @@
+{
+  "name": "ecode/open-search",
+  "description": "aliyun opensearch",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruce",
+      "email": "bigtop168@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "./OpenSearch/Autoloader/Autoloader.php"
+    ]
+  }
+}
