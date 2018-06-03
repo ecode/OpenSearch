@@ -9,8 +9,7 @@
 
 ## Usage
 
-    请参考阿里云官方文档：
-    https://help.aliyun.com/document_detail/53078.html
+    请参考阿里云官方文档：https://help.aliyun.com/document_detail/53078.html
 
 ## License
 
