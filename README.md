@@ -1,5 +1,5 @@
 # Aliyun OpenSearch SDK package
-基于阿里云最新版本 OpenSearch SDK 3.0.2 打包。
+基于阿里云最新版本 OpenSearch SDK 3.1.0 打包。
 
 ## Installation
 
