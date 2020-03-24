@@ -16,6 +16,9 @@ use Thrift\Protocol\TBinaryProtocolAccelerated;
 use Thrift\Exception\TApplicationException;
 
 
+/**
+ * @deprecated
+ */
 interface BehaviorCollectionServiceIf {
   /**
    * @param string $recordsJson
@@ -28,6 +31,10 @@ interface BehaviorCollectionServiceIf {
   public function push($recordsJson, $searchAppName, $behaviorCollectionName);
 }
 
+
+/**
+ * @deprecated
+ */
 class BehaviorCollectionServiceClient implements \OpenSearch\Generated\BehaviorCollection\BehaviorCollectionServiceIf {
   protected $input_ = null;
   protected $output_ = null;
@@ -102,6 +109,9 @@ class BehaviorCollectionServiceClient implements \OpenSearch\Generated\BehaviorC
 
 // HELPER FUNCTIONS AND STRUCTURES
 
+/**
+ * @deprecated
+ */
 class BehaviorCollectionService_push_args {
   static $_TSPEC;
 
@@ -223,6 +233,9 @@ class BehaviorCollectionService_push_args {
 
 }
 
+/**
+ * @deprecated
+ */
 class BehaviorCollectionService_push_result {
   static $_TSPEC;
 
@@ -350,7 +363,4 @@ class BehaviorCollectionService_push_result {
     $xfer += $output->writeStructEnd();
     return $xfer;
   }
-
 }
-
-

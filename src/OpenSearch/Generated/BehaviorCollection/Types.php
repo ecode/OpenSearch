@@ -15,7 +15,9 @@ use Thrift\Protocol\TProtocol;
 use Thrift\Protocol\TBinaryProtocolAccelerated;
 use Thrift\Exception\TApplicationException;
 
-
+/**
+ * @deprecated
+ */
 final class Command {
   const ADD = 0;
   static public $__names = array(
@@ -23,6 +25,9 @@ final class Command {
   );
 }
 
+/**
+ * @deprecated
+ */
 final class Constant extends \Thrift\Type\TConstant {
   static protected $DOC_KEY_CMD;
   static protected $DOC_KEY_FIELDS;
@@ -35,5 +40,3 @@ final class Constant extends \Thrift\Type\TConstant {
     return "fields";
   }
 }
-
-

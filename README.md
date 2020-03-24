@@ -1,5 +1,6 @@
 # Aliyun OpenSearch SDK package
-基于阿里云最新版本 OpenSearch SDK 3.1.0 打包。
+
+基于阿里云官方版本 OpenSearch SDK 3.2.1 打包。
 
 ## Installation
 
@@ -10,3 +11,13 @@
 ## Usage
 
     请参考阿里云官方文档：https://help.aliyun.com/document_detail/53078.html
+
+## Notice
+
+    从本版本起，版本号与官方版本号保持一致，以便于识别。
+
+## Feature
+
+    支持数据采集 2.0
+
+    支持 HTTPS
